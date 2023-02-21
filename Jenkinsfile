@@ -13,5 +13,10 @@ pipeline{
       echo'testing the app'
       }
     }
+    stage('Monitor'){
+      steps{
+      echo'Moniting the app'
+      }
+    }
   }
 }
