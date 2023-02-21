@@ -4,7 +4,7 @@ pipeline{
   
   stages{
     stage('BIULD'){
-      steps{
+      step{
       echo'building the app'
       }
     }
