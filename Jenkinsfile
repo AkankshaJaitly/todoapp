@@ -4,12 +4,12 @@ pipeline{
   
   stages{
     stage('BIULD'){
-      step{
+      steps{
       echo'building the app'
       }
     }
     stage('TEST'){
-      step{
+      steps{
       echo'testing the app'
       }
     }
